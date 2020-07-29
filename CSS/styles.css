@@ -1,0 +1,166 @@
+body {
+  color: #40514e;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+p {
+  color: #000000;
+  line-height: 2;
+font-size: 1.1rem;
+
+}
+
+hr {
+  border: dotted #a2de96 6px;
+  border-bottom: none;
+  width: 20%;
+  margin: 30px auto;
+}
+
+h1 {
+  font-size: 5.625rem;
+  /** 16px = 100% = 1em **/
+  margin: 50px auto -20px auto;
+  font-family: 'Sacramento', cursive;
+  color: #160350;
+  line-height: 2
+}
+
+h2 {
+  font-size: 2.1rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #d6c6d2;
+  font-weight: initial;
+  margin: auto;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #02063a;
+  font-size: 1.6rem;
+}
+
+.top-container {
+  background-color: #006a71;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  background-color: #006a71;
+
+}
+
+.bottom-container {
+  background-color: #006a71;
+  padding: 50px 0 20px;
+
+}
+.profile {
+  background-color: #006a71;
+  padding: 100px 0 70px 0;
+  margin: auto;
+}
+.me {
+  padding: 60px 0 35px 0;
+}
+#hello {
+  color: #d1e8d2;
+}
+.skills {
+  background-color: #006a71;
+  padding: 100px 0 40px;
+
+}
+.contact-me{
+  background-color: #006a71;
+  padding: 100px 0 40px;
+}
+a {
+  color: #eaf6f6;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+  font-size: 1.1rem;
+
+}
+a:hover{
+  color: #2a6565;
+}
+
+.nis {
+  color: #eaf6f6;
+  font-size: 1rem;
+  padding: 30px 0;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 30px;
+  top: 50px;
+  bottom: 100px;
+
+}
+.mountain {
+
+
+
+}
+.bottom-cloud {
+  position: absolute;
+  left: 30px;
+  bottom: 150px;
+}
+
+.skill-row {
+  width: 50%;
+ margin: auto;
+ margin-top: 100px;
+ margin-bottom: 100px;
+ text-align: left;
+
+
+}
+
+
+.comp {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.chili {
+  width: 25%;
+  float: right;
+  margin-right: 30px;
+}
+
+.ab {
+  width: 50%;
+  margin: 40px auto 60px;
+  font-size: 1.1rem;
+
+}
+
+.btn {
+  background-color: #1b6ca8; /* Green */
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  transition-duration: 1s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+
+}
+
+.btn:hover {
+  background-color: #ffd3e1; /* Green */
+    color: #3b2e5a;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
